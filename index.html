@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment-4</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        .self{
+            width: 600px;
+            text-align: center;
+        }
+        .cho{
+            display: flex;
+            justify-content:space-around;
+            
+        }
+        .card{
+            width: 250px;
+            border: 2px solid red;
+            text-align: center;
+
+        }
+        button{
+    
+          border: 1px solid red;
+          background-color: red; 
+          text-align: center; 
+          margin-bottom: 20px;
+          padding: 5px;
+
+
+        }
+        .container{
+            width: 250px;
+            border: 2px solid red;
+            text-align: center;
+            
+        }
+        .york{
+            color: white;
+        }
+        .san{
+            color: white;
+        }
+        img{
+            width: 250px;
+        }
+        .card-header {
+            position: relative;
+        }
+        .card-header h1 {
+            position: absolute;
+            bottom: 0;
+            width: 250px;
+            color: white;
+        }
+
+       span{
+        margin-left: 30px;
+        margin-right: 20px;
+       }
+        
+    </style>
+</head>
+<body class="self">
+    <h1>Flexbox Blog-Card</h1>
+    <div class="cho">
+  <div class="card">
+    <div class="card-header">
+        <img src="./newyork.jpg" alt="">
+        <h1>New York</h1>
+    </div>
+    <small><span><i class="fa-solid fa-calendar-days"></i>AUG 4</span>
+    <span>&#10084 102</span></small>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Si verbum sequimur,primum longius verbum praepositum bonum.</p>
+    <br>
+    <button>RED MORE</button>
+  </div>  
+  <div class="container">
+    <div class="card-header">
+        <img src="./sf.pjg" alt="">
+    <h1 class="san">San Francisco</h1>
+    </div>
+   <small> <span><i class="fa-solid fa-calendar-days"></i> AUG 1</span>
+    <span>&#10084 265</span></small>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Si verbum sequimur,primum longius verbum praepositum bonum.</p>
+    <br>
+    <button>RED MORE</button>
+  </div>
+  </div>
+</body>
+</html>
